@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Allow unsigned executable memory (required for V8/Chromium) -->
+    <key>com.apple.security.cs.allow-unsigned-executable-memory</key>
+    <true/>
+    
+    <!-- Allow DYLD environment variables -->
+    <key>com.apple.security.cs.allow-dyld-environment-variables</key>
+    <true/>
+    
+    <!-- Allow JIT compilation -->
+    <key>com.apple.security.cs.allow-jit</key>
+    <true/>
+    
+    <!-- Disable library validation -->
+    <key>com.apple.security.cs.disable-library-validation</key>
+    <true/>
+    
+    <!-- Disable executable page protection -->
+    <key>com.apple.security.cs.disable-executable-page-protection</key>
+    <true/>
+    
+    <!-- Network client capability -->
+    <key>com.apple.security.network.client</key>
+    <true/>
+    
+    <!-- Network server capability (for dev server) -->
+    <key>com.apple.security.network.server</key>
+    <true/>
+    
+    <!-- File access - downloads folder -->
+    <key>com.apple.security.files.downloads.read-write</key>
+    <true/>
+    
+    <!-- File access - user selected files -->
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true/>
+    
+    <!-- Automation (AppleScript) -->
+    <key>com.apple.security.automation.apple-events</key>
+    <true/>
+</dict>
+</plist>
